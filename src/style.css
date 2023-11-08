@@ -7,6 +7,15 @@ h1 {
     font-weight: bold;
 }
 
+h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
 header {
     padding: 20px 0;
     background-color: #3988d1;
@@ -34,10 +43,6 @@ main article:last-child {
     width: 65%;
 }
 
-.current-weather-details > div {
-    display: flex;
-}
-
 .weather-cards-container {
     display: flex;
 }
@@ -49,7 +54,8 @@ main article:last-child {
 }
 
 .search-form legend {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 
 .search-form input {
@@ -69,4 +75,44 @@ main article:last-child {
     width: 100%;
     padding: 10px;
     cursor: pointer;
+}
+
+.current-weather {
+    margin-top: 20px;
+}
+
+.current-weather small {
+    font-size: 0.8rem;
+}
+
+.current-weather-details {
+    margin-top: 30px;
+}
+
+.current-weather-details > div {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.current-weather-temp {
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.current-weather-temp span {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.current-weather-additional > div {
+    text-align: center;
+}
+
+.current-weather-additional > div h4 {
+    margin-bottom: 20px;
+}
+
+.current-weather-additional > div > div {
+    font-size: 1.2rem;
 }
